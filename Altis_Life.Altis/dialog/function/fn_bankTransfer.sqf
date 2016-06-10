@@ -20,7 +20,9 @@ if((_val + _tax) > life_atmcash) exitWith {hint format[localize "STR_ATM_SentMon
 
 life_atmcash = life_atmcash - (_val + _tax);
 
-[[_val,profileName],"TON_fnc_clientWireTransfer",_unit,false] spawn life_fnc_MP;
+[[_val,profileName,_unit getVariable["realname",name _unit]],"TON_fnc_clientWireTransfer",_unit,false] spawn life_fnc_MP;
 [] call life_fnc_atmMenu;
 hint format[localize "STR_ATM_SentMoneySuccess",[_val] call life_fnc_numberText,_unit getVariable["realname",name _unit],[_tax] call life_fnc_numberText];
 [1] call SOCK_fnc_updatePartial;
+
+[[format["1|%1 przelał %3$ do %2. The bankaccount from %1 has now a value of %4$.",player getVariable["realname",name player],_unit getVariable["realname",name _unit],[_val] call life_fnc_numberText,[life_atmcash] call life_fnc_numberText]],"Arma3Log",false] call life_fnc_MP;
