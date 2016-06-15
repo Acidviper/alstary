@@ -388,6 +388,7 @@ switch(_shop) do
 												["muzzle_snds_H_MG","Tłumik MK200",5000],
 												["muzzle_snds_H_SW","Tłumik MX SW",5000],
                                                 ["muzzle_snds_L",nil,5000],
+												["muzzle_snds_338_black",nil,6000],
 												
                                                 ["SmokeShellGreen","Gaz Łzawiący",1000],
                                                 ["HandGrenade_Stone","Flashbang",1000],
