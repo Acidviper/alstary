@@ -227,7 +227,7 @@
                             ["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
                             ["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
                             ["textures\cop\cop_hummingbird.jpg","cop"],
-                            ["textures\medic\medic_hummingbird.jpg","med"],
+                            ["textures\medic\medic_hummingbird.paa","med"],
                             ["textures\civ\civ_hummingbird_redbull.jpg","civ"],
                             ["textures\rebel\rebel_hummingbird.jpg","jpg"],
 							["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_graywatcher_co.paa","civ"],
@@ -248,7 +248,7 @@
                             ["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa","civ"],
                             ["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
                             ["textures\cop\cop_orca.jpg","cop"],
-                            ["textures\medic\medic_orca.jpg","med"],
+                            ["textures\medic\medic_orca.paa","med"],
                             ["textures\rebel\rebel_orca.jpg","reb"]
                     ];
             };
