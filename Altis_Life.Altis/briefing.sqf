@@ -45,7 +45,8 @@ player createDiarySubject ["aktual","Aktualizacje"];
 				"
 					Jeśli celowo niszysz pojazdy (np. powodujesz wybuchy), kradniesz, lub zabijasz w strefie zostaniesz ukarany banem.<br/><br/>
 					
-					Zielona strefa (sklep lub garaż)<br/>
+					Każdy resp pojazdów (sklep lub garaż)<br/>
+					Każdy sklep z bronią<br/>
 					Każdy posterunek policji<br/>
 					Baza rebeliantów<br/>
 					Sklepy <br/><br/>
@@ -72,9 +73,9 @@ player createDiarySubject ["aktual","Aktualizacje"];
 		[
 			"Interakcje z policją", 
 				"
-				Czyny na tej liście mogą spowodować usunięcie/zbanowanie z serwera zależy od admina.<br/><br/>
+				Przedmioty na tej liście mogą spowodować usunięcie/zbanowanie z serwera zależy od admina.<br/><br/>
 				
-				1. Cywile mogą być zatrzymani w poszukiwaniu plecaków/pojazdów policyjnych .<br/>
+				1. Cywile mogą być aresztowani w poszukiwaniu plecaków/pojazdów policyjnych . Ciągle dokonywanie tego czynu skutkuje wyrzuceniem z serwera.<br/>
 				2. Cywile mogą być aresztowani jeśli podążają za policja w celu podawania informacji innym graczą.<br/>
 				3. Cywile/Rebelianci chcący zabić gracza w mieście lub innym miejscu bez żadnej interakcji dokonują w tym czasie RDMa . Sprawdź sekcję RDM.<br/>
 				4. Podążanie za polcją i jej uszkadzanie uznawanie jest jako griefing, skutkuje to usunięciem z serwera.<br/>
@@ -87,7 +88,7 @@ player createDiarySubject ["aktual","Aktualizacje"];
 		[
 			"Łodzie", 
 				"
-				Czyny na tej liście skutkują banem lub wyrzuceniem z serwera.<br/><br/>
+				Przemioty na tej liście skutkują banem lub wyrzuceniem z serwera.<br/><br/>
 				
 				1. Ciągle posuwanie łodzi bez zezwolenia.<br/>
 				2. Posuwanie ludzi z zamiarem zranienia/zabicia. To nie jest RP to tylko wada mechaniki.<br/>
@@ -100,7 +101,7 @@ player createDiarySubject ["aktual","Aktualizacje"];
 		[
 			"Lotnictwo", 
 				"
-				 PCzyny na tej liście skutkują banem lub wyrzuceniem z serwera, zależy od administratora.<br/><br/>
+				 Przedmioty na tej liście skutkują banem lub wyrzuceniem z serwera, zależy od administratora.<br/><br/>
 				
 				1. Celowe niszczenie helikopterem innych helikopterów, budynków, pojazdów.<br/>
 				2. Latanie poniżej 150 metrów nad miastem. Jest to nielegalne, co więcej jest to ryzyko uderzenia w miasto, jest to wbrew regulaminowi.<br/>
@@ -144,7 +145,7 @@ player createDiarySubject ["aktual","Aktualizacje"];
 		[
 			"RDM", 
 				"
-				Czyny na tej liście skutkują banem lub wyrzuceniem z serwera, zależy od administratora.<br/><br/>
+				Przedmioty na tej liście skutkują banem lub wyrzuceniem z serwera, zależy od administratora.<br/><br/>
 				
 				1. Zabijanie bez żadnego powodu / interakcji.<br/>
 				2. Powodowanie buntu nie jest powodem, aby zabijać cywili nawet policjantów!.<br/>
@@ -161,7 +162,7 @@ player createDiarySubject ["aktual","Aktualizacje"];
 				"
 				Zasady odrodzenia dotyczą wszystkich cywili/rebeliantów jak i graczy .<br/><br/>
 				
-				Czyny na tej liście skutkują banem lub wyrzuceniem z serwera, zależy od administratora.<br/><br/>
+				Przedmioty na tej liście skutkują banem lub wyrzuceniem z serwera, zależy od administratora.<br/><br/>
 
 				1. Jeśli zginiesz musisz zaczekać 15minut, aby wrócić na miejsce akcji.<br/>
 				2. Jeśli zginiesz podczas akcji twoje czyny zostają usunięte lecz nie możesz się mścić.<br/>
@@ -184,7 +185,7 @@ player createDiarySubject ["aktual","Aktualizacje"];
 // Police Section
 	player createDiaryRecord ["policerules",
 		[
-			"Negocjacje",
+			"Krytyczne negocjacje",
 				"
 				Negocjacje muszą być prowadzone z sierżantem lub osobą z wyrzszym stopniem.<br/><br/>
 				"
@@ -192,15 +193,15 @@ player createDiarySubject ["aktual","Aktualizacje"];
 	];
 	player createDiaryRecord ["policerules",
 		[
-			"Dom Miliardera",
+			"Bank",
 				"
 				1. Dom miliardera jest niedostępny dla cywili chyba że dostniesz pozwolenie. Jeśli cywil zostanie złapany na terenie banku będzie źle :C.
 				2. Helikoptery latające nad Domem miliardera mogą być poproszone o opuszczenie strefy powietrznej banku.<br/>
-				2. Jeśli Dom jest rabowany wszyscy policjanci powinni udać się do banku w celu zatrzymania tego procesu.<br/>
-				3. Policjanci w poblirzu powinni udać się do Domu w celu pomocy, a mniejsze uczynki mogą zostać odpuszczone.<br/>
+				2. Jeśli bank jest rabowany wszyscy policjanci powinni udać się do banku w celu zatrzymania tego procesu.<br/>
+				3. Policjanci w poblirzu powinni udać się do banku w celu pomocy, a mniejsze uczynki mogą zostać odpuszczone.<br/>
 				4. Policjanci nie powinni ślepo strzelać w ściany banku.<br/>
 				5. Policja powinna wyprowadzić cywili z miejsca rabunku.<br/>
-				6. Każdy cywil próbujący zatrzymać policjantów może zostać aresztowany/zabici.<br/>
+				6. Każdy cywil próbujący zatrzymać policjantów mogą zostać aresztowani/zabici.<br/>
 				"
 		]
 	];
@@ -238,7 +239,7 @@ player createDiarySubject ["aktual","Aktualizacje"];
 		[
 			"Patrolowanie", 
 				"
-				1.Policja może partolować każde miejsce oprócz Sofi :D <br/>
+				1.Policja może partolować każde miejsce :D <br/>
 				"
 		]
 	];
@@ -274,7 +275,7 @@ player createDiarySubject ["aktual","Aktualizacje"];
 		[
 			"Prędkość", 
 				"
-				Prędkości.<br/><br/>
+				Prędkości które .<br/><br/>
 				
 				Wewnątrz dużych miast:<br/>
 				małe drogi: 50km/h<br/>
@@ -290,7 +291,7 @@ player createDiarySubject ["aktual","Aktualizacje"];
 		[
 			"miasta", 
 				"
-				1. Policjantci mogą patrolować większe miasta - Kavala, Athira, Pyrgos.<br/>
+				1. Policjantci mogą patrolować większe miasta - Kavala, Athira, Pyrgos i Sofie.<br/>
 				2. Polcja może zatrzymać każde auto do kontroli.<br/>
 				3. Policja nie może ciągle siedzieć w jednym miejscu w mieście.<br/>
 				4. Wejście na komisariat policji jest czynem nielegalnym, chyba że cywil ma jakiś ważny powód.<br/><br/>

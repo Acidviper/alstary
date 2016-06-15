@@ -13,6 +13,7 @@ if(!hasInterface) exitWith {}; //This is a headless client, he doesn't need to d
 __CONST__(BIS_fnc_endMission,BIS_fnc_endMission);
 [] execVM "core\init.sqf";
 [] execVM "core\functions\fn_emptyFuel.sqf";
+[] execVM "SpyGlass\fn_initSpy.sqf";
 enableRadio false; 
 enableSentences false;
 
