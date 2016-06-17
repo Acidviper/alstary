@@ -770,7 +770,7 @@ switch(_shop) do
 												["20Rnd_762x51_Mag",nil,500],
                                                 ["srifle_DMR_06_camo_F",nil,400000],
                                                 ["20Rnd_762x51_Mag",nil,4000],
-												["srifle_DMR_02_sniper_F",nil,600000],
+												["srifle_DMR_02_sniper_F",nil,1600000],
 												["10Rnd_338_Mag",nil,6000],
 												["optic_DMS",nil,80000],
 												["optic_NVS",nil,80000],		
