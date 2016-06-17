@@ -28,9 +28,9 @@ switch (_type) do
     case "donator2": {1};
 	case "donator3": {1};
 	case "home": {2000000};
-	case "heroin": {350000}; //Heroin processing license cost
-	case "marijuana": {150000}; //Marijuana processing license cost
-	case "cocaine": {450000};
+	case "heroin": {550000}; //Heroin processing license cost
+	case "marijuana": {350000}; //Marijuana processing license cost
+	case "cocaine": {750000};
 	case "oil": {200000}; //Oil processing license cost
 	case "diamond": {300000};
 	case "copper": {10000};
@@ -45,7 +45,7 @@ switch (_type) do
 	case "zucker": {20000}; //Przetwarzanie Cukru
 	case "whiskey": {75000}; //Produkcja Whiskey
 	case "zigarren": {250000}; //Produkcja Cygar
-	case "rum": {120000}; //Produkcja Rumu
+	case "rum": {220000}; //Produkcja Rumu
 	case "holz": {50000}; //Przetwarzanie Drewna
 	case "schwefel": {30000}; //Przetwarzanie Siarki
 	case "silber": {250000}; //Przetwarzanie Srebra
@@ -54,13 +54,13 @@ switch (_type) do
 	case "bronze": {80000}; //Przetwarzanie Brązu
 	case "schmuck": {300000}; //Produkcja Biżuteri
 	case "pbrau": {200000}; //Produkcja Likieru
-	case "kkugel": {60000}; //Odkrywca Kul
+	case "kkugel": {200000}; //Odkrywca Kul
 	case "pkugel": {500000}; //Licencja Pirata
 	case "spulver": {70000}; //Przetwarzanie Proszku
 	case "uran2": {100000}; //Oczyszczanie Uranu
 	case "uran3": {125000}; //Przetwarzanie Uranu
 	case "uran4": {150000}; //Wzbogacanie Uranu
-	case "uran5": {175000}; //Produkcja Prętów Paliwowych
-	case "uranip": {200000}; //Zamiana w Brudny Uran
+	case "uran5": {375000}; //Produkcja Prętów Paliwowych
+	case "uranip": {300000}; //Zamiana w Brudny Uran
 
 };
