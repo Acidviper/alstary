@@ -14,7 +14,7 @@ sleep 15; //Wait in seconds before the credits start after player is in-game
 _role1 = "Witamy na Serwerze";
 _role1names = ["Altis Land"];
 _role2 = "Admin";
-_role2names = ["Acid"];
+_role2names = ["Acid, Castel"];
 _role3 = "Nowe zasady!!!!";
 _role3names = ["Na chwile obecną nie działają przelewy"];
 _role4 = "TeamSpeak3:";
@@ -29,7 +29,7 @@ _role8 = "Zmiany";
 _role8names = ["Dom miliardera działa
 tylko jak jest admin"];
 _role9 = "ŻÓŁTA STREFA!!!!";
-_role9names = ["Strefa klapków zakaz posiadania i używania długiej broni!!!!!"];
+_role9names = ["Strefa klapków bezwzględny zakaz posiadania i używania długiej broni!!!!!"];
 
 {
 sleep 2;
