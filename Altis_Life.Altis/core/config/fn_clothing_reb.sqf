@@ -33,7 +33,7 @@ switch (_filter) do
 			["U_I_CombatUniform_tshirt",nil,15000],	
 			["U_I_CombatUniform",nil,15000],	
 			["U_I_OfficerUniform",nil,15000],
-			["U_I_GhillieSuit",nil,55000],
+			["U_I_GhillieSuit",nil,80000],
 			["U_O_PilotCoveralls",nil,10000]
 		];
 	};
