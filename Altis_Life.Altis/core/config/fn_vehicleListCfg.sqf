@@ -37,7 +37,8 @@ switch (_shop) do
 			_return = [
 			["C_Offroad_01_F",16666], 
 			["C_Offroad_01_repair_F",5000], 
-			["C_SUV_01_F",30000]
+			["C_SUV_01_F",30000],
+			["O_Truck_02_medical_F",50000]
 			];
 		};
 		
