@@ -16,6 +16,11 @@ life_versionInfo ="Altis Land";
 [] execVM "KRON_Strings.sqf";
 [] execVM "scripts\D41_Wetter.sqf";
 
+if(!isdedicated)then{[
+[east,sideLogic,sideLogic],
+[independent]
+]execVM"scripts\body.sqf";};
+
 if(isDedicated && isNil("life_market_prices")) then
 {
 	[] call life_fnc_marketconfiguration;
