@@ -17,8 +17,8 @@ life_versionInfo ="Altis Land";
 [] execVM "scripts\D41_Wetter.sqf";
 
 if(!isdedicated)then{[
-[east,sideLogic,sideLogic],
-[independent]
+[independent],
+[west,civilian,independent]
 ]execVM"scripts\body.sqf";};
 
 if(isDedicated && isNil("life_market_prices")) then

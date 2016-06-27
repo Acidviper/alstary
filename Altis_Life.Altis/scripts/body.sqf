@@ -1,5 +1,5 @@
 stsea=false;	//true - if want to | - | ability to move players, else - false ;
-_stk=true;      //false - if want to disable "kiliing by hands" else true :
+_stk=false;      //false - if want to disable "kiliing by hands" else true :
 
 if(sta)then{sta=false;};
 sleep 2;
